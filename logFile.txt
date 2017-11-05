@@ -1,0 +1,1422 @@
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.10.178:21861
+
+ recebeu de 191.36.10.178:21861=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>8</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.10.178:35533
+
+ recebeu de 191.36.10.178:35533=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>8</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.10.178:29385
+
+ recebeu de 191.36.10.178:29385=<Inicio>
+    <nome>piorzons</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>piorzons</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.10.178:36107
+
+ recebeu de 191.36.10.178:36107=<Inicio>
+    <nome>amelhor</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>amelhor</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.10.178:10123
+
+ recebeu de 191.36.10.178:10123=<Inicio>
+    <nome>amelhorrrrr</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>amelhorrrrr</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.10.178:22507
+
+ recebeu de 191.36.10.178:22507=<Inicio>
+    <nome>aMELHOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>aMELHOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.10.178:22641
+
+ recebeu de 191.36.10.178:22641=<Inicio>
+    <nome>MELHORZONA</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>MELHORZONA</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:34429
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:24583
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:17403
+
+ recebeu de 191.36.11.250:17403=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:21917
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:26181
+
+ recebeu de 191.36.11.250:26181=<Inicio>
+    <nome>amelhor</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>amelhor</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:30357
+
+ recebeu de 191.36.11.250:30357=<Inicio>
+    <nome>malu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>malu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:21523
+
+ recebeu de 191.36.11.250:21523=<Inicio>
+    <nome>malu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>malu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>8</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:12027
+
+ recebeu de 191.36.11.250:12027=<Inicio>
+    <nome>amelhor</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>amelhor</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:29317
+
+ recebeu de 191.36.11.250:29317=<Inicio>
+    <nome>amlehorr</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>amlehorr</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:10465
+
+ recebeu de 191.36.11.250:10465=<Inicio>
+    <nome>AMELHOOOOOOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>AMELHOOOOOOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:16469
+
+ recebeu de 191.36.11.250:16469=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:15253
+
+ recebeu de 191.36.11.250:15253=<Inicio>
+    <nome>AMELHOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>AMELHOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>1</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>CantuViadao</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:36759
+
+ recebeu de 191.36.11.250:36759=<Inicio>
+    <nome>AMELHOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>AMELHOR</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:32579
+
+ recebeu de 191.36.11.250:32579=<Inicio>
+    <nome>maluuuu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maluuuu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>8</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>anderson</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.11.250:31497
+
+ recebeu de 191.36.11.250:31497=<Inicio>
+    <nome>maluuu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maluuu</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>8</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>Andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.8.242:16615
+
+ recebeu de 191.36.8.242:16615=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>Andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.8.242:28309
+
+ recebeu de 191.36.8.242:28309=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>8</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>Andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.8.242:30213
+
+ recebeu de 191.36.8.242:30213=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ Protocolo_cliente: Estado atual - início
+ Mensagem de inicialização a ser enviado: 
+ <Inicio>
+    <nome>Andre</nome>
+    <marca><false/></marca>
+</Inicio>
+
+ Nova conexão: 191.36.8.242:31703
+
+ recebeu de 191.36.8.242:31703=<Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Mensagem de inicialização recebida do oponente: 
+ <Inicio>
+    <nome>maria</nome>
+    <marca><true/></marca>
+</Inicio>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>1</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>5</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>6</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>3</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>7</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>8</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>2</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - espera_jogada
+ Mensagem de posição recebida
+ <Posicao>
+    <posicao>4</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - joga
+ Mensagem de posição a ser enviada: 
+ <Posicao>
+    <posicao>9</posicao>
+</Posicao>
+
+ Protocolo_cliente: Estado atual - Fim
+ Mensagem de finalização enviada
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+
+ Mensagem de finalização recebida: 
+ <Fim>
+    <condicao>0</condicao>
+</Fim>
+

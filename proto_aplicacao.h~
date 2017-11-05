@@ -1,0 +1,63 @@
+
+#ifndef	_PROTO_APLICACAO_H_
+#define	_PROTO_APLICACAO_H_
+
+#include <iostream>
+#include <string>
+#include "TCPBaseSocket.h"
+#include <parser_Ptcmensagem.h>
+
+using namespace std;
+
+class proto_aplicacao {
+
+public:
+	/*
+	*O construtor desta classe é utilizado para inicializar a máquina de estados do protocolo
+	*e inicializar um socket server com a porta recebido como paramêtro:
+	*
+	*@porta_server - Número da porta que será aberta no servidor.
+	*/
+	proto_aplicacao(int porta_server);
+	~proto_aplicacao();
+
+	//
+
+
+	int initialize(bool servidor, string ip, string nome, bool marca);
+	int send(int posicao);
+	int receive();
+	int finaliza(int condicao);
+
+	bool get_marca_adversario(){ return marca_oponente; };
+	string get_nome_adversario(){ return nome_oponente; };
+
+private:
+	enum Estados {
+			inicio, joga, espera_jogada, fim
+	};
+	int fsm();
+    	// estado atual da MEF
+	int estado;
+	string ip, ip_oponente;
+	string nome, nome_oponente;
+    	bool marca, marca_oponente, servidor;
+	int posicao_envio;
+	int condicao_fim;
+
+	void WriteLogFile(string szString);
+
+	Connection * sock;
+
+    	//Criação do socket TCP
+    	TCPClientSocket client;
+	TCPServerSocket server;	
+
+    TInicio Asn1_init;
+    TPosicao Asn1_posicao;
+    TErro Asn1_erro;
+    TFim Asn1_fim;
+};
+
+#endif	/* _POS_H_ */
+

@@ -1,0 +1,23 @@
+Mensagem DEFINITIONS AUTOMATIC TAGS ::=
+BEGIN
+ 
+Login ::= SEQUENCE {
+  usuario PrintableString (SIZE(1..12)),
+  senha PrintableString (SIZE(4..12))
+}
+ 
+Dados ::= SEQUENCE {
+  seq INTEGER,
+  x INTEGER,
+  y INTEGER
+}
+ 
+Mensagem ::= SEQUENCE {
+  id INTEGER,
+  msg CHOICE {
+    inicio Login,
+    dados Dados
+  }
+}
+ 
+END

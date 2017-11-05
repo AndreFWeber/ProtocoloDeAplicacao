@@ -1,0 +1,316 @@
+/*
+ * arq.cc
+ *
+ *  Created on: Jun 22, 2017
+ *      Author: weber
+ */
+#include <iostream>
+#include <sstream>
+#include <cstdlib>
+#include <ctime>
+#include "proto_aplicacao.h"
+
+using namespace std;
+
+proto_aplicacao::proto_aplicacao(int porta_server) : server(porta_server) {
+	estado = inicio;
+}
+
+proto_aplicacao::~proto_aplicacao() {
+}
+
+int proto_aplicacao::initialize(bool servidor, string ip, string nome,
+		bool marca) {
+	this->ip = ip;
+	this->nome = nome;
+	this->marca = marca;
+	this->servidor = servidor;
+	if (servidor) {
+	} else {
+		// conecta no servidor da wiki
+		client.connect(ip, 8000);
+	}
+
+	return fsm();
+}
+
+int proto_aplicacao::send(int posicao) {
+	this->posicao_envio = posicao;
+	return fsm();
+}
+
+int proto_aplicacao::receive() {
+	return fsm();
+}
+
+int proto_aplicacao::finaliza(int condicao) {
+	this->condicao_fim = condicao;
+	estado = fim;
+	return fsm();
+}
+
+void proto_aplicacao::WriteLogFile(string szString) {
+	FILE* pFile = fopen("logFile.txt", "a");
+	fprintf(pFile, " %s\n", szString.c_str());
+	fclose(pFile);
+}
+
+int proto_aplicacao::fsm() {
+	int valorRetorno = -1;
+	ostringstream out;
+	// cria o codificador
+	TInicio::XerSerializer encoder_init(out);
+	TPosicao::XerSerializer encoder_pos(out);
+	TFim::XerSerializer encoder_fim(out);
+
+	string data_s, data_r;
+	string log;
+	switch (estado) {
+	case inicio:
+		WriteLogFile("Protocolo_cliente: Estado atual - início");
+
+		Asn1_init.set_marca(marca);
+		Asn1_init.set_nome(nome);
+
+		// verifica se os valores contidos na estrutura de dados respeitam
+		// a especificação
+		Asn1_init.check_constraints();
+
+		// mostra a estrutura de dados na tela
+		WriteLogFile("Mensagem de inicialização a ser enviado: ");
+
+		// codifica a estrutura de dados
+		encoder_init.serialize(Asn1_init);
+
+		WriteLogFile(out.str());
+
+		if (!servidor) {
+			// faz uma requisição HTTP
+			client.send(out.str());
+
+			data_r = client.recv(1024);
+
+			istringstream inp(data_r);
+			TInicio::XerDeserializer decoder(inp);
+
+			TInicio * other;
+			while (other = decoder.deserialize()) {
+				WriteLogFile("Mensagem de inicialização recebida do oponente: ");
+				WriteLogFile(data_r);
+
+				nome_oponente = other->get_nome();
+				marca_oponente = other->get_marca();
+			}
+			estado = espera_jogada;
+			break;
+
+		} else {
+			while (true) {
+				try {
+					// aguarda uma nova conexão ou dados em
+					//uma conexão existente
+					sock = &server.wait(0);
+
+					string addr;
+					unsigned short port;
+
+					// obtém o IP e port do socket da outra ponta da
+					// conexão
+					sock->get_peer(addr, port);
+
+					if (sock->isNew()) {
+						// caso contrário, deve ser uma  nova conexão
+						string log = "Nova conexão: " + addr + ':'
+								+ to_string(port) + "\n";
+						WriteLogFile(log);
+					} else {
+						// tenta receber até 1024 bytes no socket retornado
+						// por "wait"
+						data_s = sock->recv(1024);
+
+						// conseguiu ler algo desse socket ...
+						if (data_s.size()) {
+							// ...mostra-os na tela e envia-os de volta
+							// para a outra ponta da conexão
+							log = "recebeu de " + addr + ':' + to_string(port)
+									+ '=' + data_s;
+							WriteLogFile(log);
+						}
+						// cria o decodificador
+
+						istringstream inp(data_s);
+						TInicio::XerDeserializer decoder(inp);
+
+						// tenta decodificar uma estrutura de dados
+						TInicio * other;
+						while (other = decoder.deserialize()) {
+							//other->show();v
+							WriteLogFile("Mensagem de inicialização recebida do oponente: ");
+							WriteLogFile(data_s);
+							nome_oponente = other->get_nome();
+							marca_oponente = other->get_marca();
+
+						}
+
+						cout << endl;
+
+						sock->send(out.str());
+						valorRetorno = 0;
+						break;
+
+					}
+				} catch (TCPServerSocket::DisconnectedException e) {
+					// esta exceção informa que uma conexão foi encerrada
+					// o socket correspondente foi invalidado automaticamente
+					cout << e.what() << ": " << e.get_addr() << ':';
+					cout << e.get_port() << endl;
+					valorRetorno = -1;
+				}
+			}
+
+			estado = joga;
+			break;
+		}
+
+	case joga:
+		WriteLogFile("Protocolo_cliente: Estado atual - joga");
+
+		Asn1_posicao.set_posicao(this->posicao_envio);
+
+		// verifica se os valores contidos na estrutura de dados respeitam
+		// a especificação
+		Asn1_posicao.check_constraints();
+
+		// mostra a estrutura de dados na tela
+		WriteLogFile("Mensagem de posição a ser enviada: ");
+//		  Asn1_posicao.show();
+
+		// codifica a estrutura de dados
+		encoder_pos.serialize(Asn1_posicao);
+
+		WriteLogFile(out.str());
+
+		if (!servidor) {
+			client.send(out.str());
+		} else {
+			sock->send(out.str());
+		}
+
+		estado = espera_jogada;
+		break;
+
+		/*
+		 *
+		 *
+		 *TEM QUE CHECAR SE AS MSGS QUE CHEGAM AQUI SAO REALMENTE DE POS! SE FOR ERRO OU FIM MUDA DE ESTADO
+		 *
+		 */
+	case espera_jogada:
+		WriteLogFile("Protocolo_cliente: Estado atual - espera_jogada");
+		WriteLogFile("Mensagem de posição recebida");
+
+		if (!servidor) {
+			while (true) {
+				data_r = client.recv(1024);
+				if (data_r.size()) {
+					//cout << data_r <<endl;
+					break;
+				}
+			}
+
+		} else {
+			while (true) {
+				data_r = sock->recv(1024);
+				if (data_r.size()) {
+					//cout << data_r <<endl;
+					break;
+				}
+			}
+		}
+
+		if (data_r.size()) {
+			istringstream inp(data_r);
+			TPosicao::XerDeserializer decoder(inp);
+
+			TPosicao * other;
+			while (other = decoder.deserialize()) {
+				//other->show();
+				WriteLogFile(data_r);
+				valorRetorno = other->get_posicao();
+			}
+
+		}
+
+		estado = joga;
+		break;
+	case fim:
+		WriteLogFile("Protocolo_cliente: Estado atual - Fim");
+		Asn1_fim.set_condicao(condicao_fim);
+
+		// verifica se os valores contidos na estrutura de dados respeitam
+		// a especificação
+		Asn1_fim.check_constraints();
+
+		// codifica a estrutura de dados
+		encoder_fim.serialize(Asn1_fim);
+
+		WriteLogFile("Mensagem de finalização enviada");
+		WriteLogFile(out.str());
+
+		if (!servidor) {
+			client.send(out.str());
+
+			while (true) {
+				data_r = client.recv(1024);
+				if (data_r.size()) {
+					break;
+				}
+			}
+
+			if (data_r.size()) {
+				istringstream inp(data_r);
+				TFim::XerDeserializer decoder(inp);
+
+				TFim * other;
+				while (other = decoder.deserialize()) {
+					//other->show();
+					WriteLogFile("Mensagem de finalização recebida: ");
+					WriteLogFile(data_r);
+					valorRetorno = other->get_condicao();
+				}
+
+			}
+		} else {
+			while (true) {
+				data_r = sock->recv(1024);
+				if (data_r.size()) {
+					break;
+				}
+			}
+
+			if (data_r.size()) {
+				istringstream inp(data_r);
+				TFim::XerDeserializer decoder(inp);
+
+				TFim * other;
+				while (other = decoder.deserialize()) {
+					//other->show();
+					WriteLogFile("Mensagem de finalização recebida: ");
+					WriteLogFile(data_r);
+					valorRetorno = other->get_condicao();
+				}
+			}
+			sock->send(out.str());
+
+		}
+		break;
+
+	default:
+		WriteLogFile("Estado inválido");
+
+	}
+
+	return valorRetorno;
+}
+
+

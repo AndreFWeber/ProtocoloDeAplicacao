@@ -1,0 +1,26 @@
+Ptcmensagem DEFINITIONS AUTOMATIC TAGS ::=
+BEGIN
+ 
+Inicio ::= SEQUENCE {
+        nome PrintableString (SIZE(1..12)), 
+        marca BOOLEAN
+} 
+ 
+
+Posicao ::= SEQUENCE{
+        posicao INTEGER 
+}
+
+
+Erro ::= SEQUENCE{
+        erro INTEGER
+}
+ 
+
+Fim ::= SEQUENCE {
+        condicao INTEGER
+}
+
+END
+
+
